@@ -1,5 +1,5 @@
-//#include "../colors/iosevka_theme.h"
-#include "../colors/candy_theme.h"
+//#include "../suckless-themes/iosevka_theme.h"
+#include "../suckless-themes/candy_theme.h"
 
 
 /* See LICENSE file for copyright and license details. */
