@@ -1,5 +1,5 @@
 //#include "../suckless-themes/iosevka_theme.h"
-#include "../suckless-themes/candy_theme.h"
+#include "../suckless-themes/ocean_theme.h"
 
 
 /* See LICENSE file for copyright and license details. */
@@ -9,7 +9,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack Nerd Font FC Ligatured:pixelsize=12:antialias=true:autohint=true";
+static char *font = "Hack Nerd Font FC Ligatured:pixelsize=14:antialias=true:autohint=true";
+// static char *font = "Iosevka Term Extended:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 5;
 
 /*
@@ -97,7 +98,8 @@ static const char *colorname[] = {
 	col_yellow,
 	col_blue,
 	col_pink,
-	col_cyan,
+	// col_cyan,
+	col_blue,
 	"gray90",
 
 	/* 8 bright colors */
@@ -107,7 +109,8 @@ static const char *colorname[] = {
 	col_yellow,
 	col_blue,
 	col_pink,
-	col_cyan,
+	// col_cyan,
+	col_blue,
 	col_white,
 
 	[255] = 0,
